@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Styles</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eeeeee;
+      }
+      img {
+        align-items: center;
+      }
+      #app {
+        width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #4d4d4d;
+      }
+      #like-btn {
+        padding: 5px;
+        width: 100px;
+        border: 1px solid #eeeeee;
+        color: white;
+        background-color: cornflowerblue;
+        cursor: pointer;
+      }
+      #like-btn:hover {
+        padding: 5px;
+        width: 100px;
+        border: 1px solid #eeeeee;
+        color: white;
+        cursor: pointer;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div id="app">
+      <button id="theme-btn">DARK</button>
+      <h2>PhotoGram</h2>
+      <img src="./img/flower.jpg" height="300" width="300" alt="" />
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quo
+        distinctio tempore provident, veniam, asperiores dolor ipsa, odit a
+      </span>
+      <hr />
+      <p id="display-likes">Likes: 7</p>
+      <button id="like-btn">LIKE</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
